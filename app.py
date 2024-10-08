@@ -18,6 +18,9 @@ def stocks():
     stocks = ['Apple', 'Microsoft']
     return render_template('stocks.html', stocks=stocks)
 
+@app.route('/stocks')
+def team2m3():
+    print("Eric Y")
 
 
 if __name__ == "__main__": app.run(debug=True)
